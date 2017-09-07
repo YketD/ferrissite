@@ -1,0 +1,71 @@
+<html>
+<head>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--title with the utf-8 charset for special chars-->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>FerrisFromHell</title>
+
+    <!-- jQuery -->
+    <script src="javascripts/libs/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap & tether -->
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="javascripts/libs/bootstrap.min.js"></script>
+
+    <!-- background fullscreening -->
+    <script src="javascripts/bgScript.js"></script>
+
+    <!-- images loading -->
+    <script src="javascripts/imagesScript.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/imagemarkup.css">
+</head>
+
+<body>
+<!--<div id="vid-bg">-->
+    <!--<img id="big-logo" src="images/ffh.gif"></img>-->
+<!--</div>-->
+<video playsinline autoplay muted loop id="bgvid">
+    <source src="images/bg.mp4" type="video/mp4">
+</video>
+<!--<div style="display:none;" id="imageoverlay"></div>-->
+<!--<p id="images"></p>-->
+
+<div id="content">
+<div id="start-menu" style="display:none">
+    <div
+            onmouseout="hover($('.photo-logo'),$('.soon-logo-photo'))"
+            onmouseover="hover($('.soon-logo-photo'),$('.photo-logo'))"
+            class="start-menu-item col-lg-4 col-md-4 col-sm-4  col-xs-4" href="#">
+
+                <img id="photo-logo" class="preload menu-logo photo-logo" src="images/photo.gif"/>
+                <img id="soon-logo-photo" class="preload menu-logo soon-logo-photo imagesBLOCK" src="images/soon.gif"/>
+
+    </div>
+    <div
+            onmouseout="hover($('.video-logo'),$('.soon-logo-video'))"
+            onmouseover="hover($('.soon-logo-video'),$('.video-logo'))"
+            class="start-menu-item col-lg-4 col-md-4 col-sm-4  col-xs-4"
+            href="#">
+        <a>
+                <img class="preload menu-logo video-logo" src="images/video.gif"/>
+                <img class="preload menu-logo soon-logo-video imagesBLOCK" src="images/soon1.gif"/>
+        </a>
+    </div>
+    <div class="start-menu-item col-lg-4 col-md-4 col-sm-4  col-xs-4" href="#">
+        <a onclick="fadeout()" >
+            <img class="preload menu-logo contact-logo" src="images/contact.gif"/> </a>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,57 @@
+.imagevert{
+    padding: 25px 100px;
+    /*width: auto;*/
+}
+
+.imagehor{
+    padding : 15px;
+    border-radius: 15px;
+    max-height: 600px;
+    max-width: 80%;
+}
+
+.row {
+    width : 100%;
+
+}
+.imagecontainer{
+    position:relative;
+    margin: 0px 60px;
+    padding: 40px 0;
+    width:auto;
+    /*background-color: rgba(0, 0, 0, 0.71);*/
+    z-index:100;
+}
+.imagesetcontainer{
+    position:relative;
+    margin: 10px 150px;
+    padding: 0px 0px 0px 20px;
+    width:auto;
+    border-radius: 5px;
+    border-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index:100;
+
+
+
+    /*background: red; !* For browsers that do not support gradients *!*/
+    /*background: -webkit-radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)); !* Safari 5.1 to 6.0 *!*/
+    /*background: -o-radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)); !* For Opera 11.6 to 12.0 *!*/
+    /*background: -moz-radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)); !* For Firefox 3.6 to 15 *!*/
+    /*background: radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)); !* Standard syntax *!*/
+
+}
+.albumtitle{
+    padding: 60px 0px 10px 7%;
+    /*color: rgb(255, 255, 255);*/
+    color: whitesmoke;
+    font-family: "gothic";
+    font-size: 30px;
+    /*letter-spacing: 1px;*/
+    font-weight: 500;
+    z-index:101;
+    border-bottom: groove;
+    border-color: dimgrey;
+
+
+}
