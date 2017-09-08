@@ -1,0 +1,68 @@
+<html>
+<head>
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <!--title with the utf-8 charset for special chars-->
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>FerrisFromHell</title>
+
+    <!-- jQuery -->
+    <script src="javascripts/libs/jquery-3.2.1.min.js"></script>
+
+    <!-- Bootstrap & tether -->
+    <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="javascripts/libs/bootstrap.min.js"></script>
+
+    <!-- background fullscreening -->
+    <script src="javascripts/bgScript.js"></script>
+
+    <!-- images loading -->
+    <script src="javascripts/imagesScript.js"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/imagemarkup.css">
+</head>
+
+<body>
+<div id="vid-bg">
+    <img style="height: 100%; width: 60%"  src="images/test.png"></img>-->
+</div>
+
+<div style="display:none;" id="imageoverlay"></div>
+<p id="images"></p>
+
+<!--onmouseover="hover($('.video-logo'),$('.soon-video-logo'))"-->
+<div class="row" id="start-menu">
+    <div  class="start-menu-item col-lg-12 col-sm-12  col-xs-12">
+        <a  class="videobutton" href="#" onclick="callForImages()">
+            <img style="display:block" class="menu-logo photo-logo" src="images/photo.png"/>
+            <img style="display:none" class="menu-logo soon-logo-photo" src="images/contact.gif"/>
+        </a>
+    </div>
+    <div class="start-menu-item col-lg-12 col-sm-12  col-xs-12" href="#">
+        <a class="videobutton">
+            <img style="display:block" class="menu-logo video-logo" src="images/video.png"/>
+            <img style="display:none" class="menu-logo soon-video-logo" src="images/contact.gif"/>
+        </a>
+
+    </div>
+    <div class="start-menu-item col-lg-12 col-sm-12  col-xs-12" href="#">
+        <a onclick="fadeout()" href="imagestest.html">
+            <img style="display:block" class="menu-logo contact-logo" src="images/contact.png"/> </a>
+    </div>
+</div>
+
+
+</div>
+<footer>
+    <a url='http://www.instagram.com/ferrisfromhell'>
+        <img id="insta-icon" src="favicon.ico"/>
+    </a>
+</footer>
+
+</body>
+</html>
